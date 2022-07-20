@@ -126,19 +126,71 @@
     margin: 30px;
 }
 
-.margin {
-    margin: 20px;
-    border: 1px solid gold;
-}
-
-.contain {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.all-images {
+.innline {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-left: 30%;
+    padding-top: 15px;
+    width: 35%;
+    height: 20%;
+    font-size: 10px;
+
+
+}
+
+.size {
+    height: 50px;
+    width: 50px;
+}
+
+.sizes {
+    height: 50px;
+    width: 50px;
+}
+
+.team1,
+.team2,
+.team3,
+.team4,
+.team5,
+.team6 {
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    width: 202px;
+    height: 142px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+
+.all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.all img {
+    width: 100%;
+}
+
+.all h2 {
+    padding-left: 25%;
+}
+
+
+
+
+
+.verses {
+    text-align: center;
+    font-size: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 
 }
 
