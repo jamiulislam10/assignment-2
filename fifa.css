@@ -134,7 +134,10 @@
 .contain {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+
 }
+
+.all-images img {}
 
 .all-images {
     display: grid;
@@ -195,3 +198,5 @@
 .social-media {
     display: flex;
 }
+
+.margin {}
